@@ -1,0 +1,6 @@
+#nev_bar{
+    width: 10vw;
+    height: 10vh;
+    color: rgb(8, 209, 165);
+    display:-moz-inline-grid;
+}

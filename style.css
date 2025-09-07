@@ -37,8 +37,7 @@ nav ul li a.active {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-      transition: 0.3s;
-
+    transition: 0.3s;
 }
 
 .hero{
@@ -46,6 +45,12 @@ nav ul li a.active {
    align-items: center;
    justify-content: center;
    padding: 50px;
+}
+.hero-text{
+  max-width: 50%;
+}
+.hero-text h1{
+  font-size: 40%;
 }
 
 .hero-image img {

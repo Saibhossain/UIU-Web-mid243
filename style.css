@@ -1,6 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
+*{  margin: 0;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -8,10 +7,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 5px 10px;
     background: #eeecec;
     box-shadow:  0 2px 5px rgba(0,0,0,0.1);
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -26,7 +26,11 @@ nav ul{
 nav ul li {
   margin: 0 15px;
 }
-
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
 nav ul li a.active {
   color: #00b894;
 }
@@ -39,23 +43,40 @@ nav ul li a.active {
     font-weight: bold;
     transition: 0.3s;
 }
+.btn:hover {
+  background: #019474;
+}
 
 .hero{
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    padding: 50px;
 }
 .hero-text{
   max-width: 50%;
 }
 .hero-text h1{
-  font-size: 40%;
+  font-size: 42px;
+  color: #222;
+  margin-bottom: 10px;
 }
 
-.hero-image img {
-  width: 500px;
-  border-radius: 10px;
+.hero-text .highlight {
+  color: #00b894;
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+.hero-img{
+max-width: 700px;
+
+ 
 }
 
 .search-bar{
